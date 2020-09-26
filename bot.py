@@ -1,3 +1,4 @@
+from os import environ
 from telethon import TelegramClient, events
 from download_from_url import download_file, get_size
 from file_handler import send_to_transfersh_async, progress
